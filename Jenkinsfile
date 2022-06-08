@@ -3,7 +3,8 @@ pipeline{
     stages{
         stage('practice'){
             step{
-                sh 'lscpu'
+                sh 'cal'
+                sh 'cal 2025'
             }
         }
     }
